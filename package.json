@@ -1,0 +1,41 @@
+{
+  "name": "ml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vasya24/ML.git"
+  },
+  "author": "Vasiliy Smirnov <vasya.smirnoff24@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vasya24/ML/issues"
+  },
+  "homepage": "https://github.com/Vasya24/ML#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "babel-jest": "^26.3.0",
+    "babel-loader": "^8.1.0",
+    "core-js": "^3.6.5",
+    "css-loader": "^4.2.2",
+    "html-webpack-plugin": "^4.4.1",
+    "jest": "^26.4.2",
+    "mini-css-extract-plugin": "^0.11.0",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5",
+    "webpack-jquery-ui": "^2.0.1"
+  }
+}

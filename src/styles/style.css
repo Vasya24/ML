@@ -1,0 +1,30 @@
+body {
+    background-color: #6D6D6D;
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a {
+    color: inherit;
+}
+
+section {
+    height: 100%;
+}
+
+.logo-image {
+    height: 55px;
+}
+
+.navbar {
+    background-color: rgba( 95, 95, 95, 0.3)
+}
+
+.show-row, .report-row {
+    opacity: 0.65;
+    transition: 0.1s ease-in;
+}
